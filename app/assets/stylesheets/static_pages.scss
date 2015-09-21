@@ -243,3 +243,15 @@ h3{
 		color: $white;
 	}
 }
+
+
+
+@media (max-width: 524px) {
+
+	.middle{
+		.title{
+			font-size: 0.7em;
+		}
+	}
+
+}
