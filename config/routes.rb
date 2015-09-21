@@ -1,10 +1,12 @@
 Rails.application.routes.draw do
   root 'static_pages#Home'
 
-  get 'static_pages/contact'
+  get 'about' => "static_pages#about"
 
-  get 'static_pages/payment'
+  get 'contact' => "static_pages#contact"
 
-  get 'static_pages/portfolio'
+  get 'payment' => "static_pages#payment"
+
+  get 'portfolio' => "static_pages#portfolio"
 
 end

@@ -2,45 +2,46 @@
 
 <div class="intro">
         <div class="row data-equalizer">
-          
-          <div class="small-12 medium-4 columns data-equalizer-watch"><h3>Welcome to my Portfolio <br><small>Learn more about me and check out my work.</small> </h3>
 
-            <div class="row social">
-
-          <div class="small-3 medium-3 columns">
-            <a href="#"><i class="fa fa-facebook fa-fw fa-2x"></i></a>
-          </div>
-
-          <div class="small-3 medium-3 columns">
-            <a href="#"><i class="fa fa-instagram fa-fw fa-2x"></i></a>
-          </div>
-  
-          <div class="small-3 medium-3 columns">
-            <a href="#"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
-          </div>
-
-          <div class="small-3 medium-3 columns">
-            <a href="#"><i class="fa fa-twitter  fa-fw fa-2x"></i></a>
-          </div>
-
-          </div>
-
-
-
-
-          </div>   
-
-            <div class="small-12 medium-4 columns me-image data-equalizer-watch">
+            <div class="small-12 medium-5 columns me-image data-equalizer-watch">
             <%=image_tag("adamrichardson.png", alt: "Example Image")%>
             </div>   
+          
+              <div class="small-12 medium-7 columns data-equalizer-watch"><h2>Welcome to my Portfolio <br><small class="intro-small">Learn more about me and check out my work.</small> </h2>
 
-          <div class="small-12 medium-4 columns info data-equalizer-watch" ><p class="about-text">Hi, I'm Adam Richardson. I am passionate about web design/development. I love helping people launch their brand/business or take it to a new level! We will work together to make sure you get the best website possible for your business/brand.</p></div>
-        
+                  <div class="row social">
 
-        </div>
+                        <div class="small-3 medium-3 columns">
+                          <a href="#"><i class="fa fa-facebook fa-fw fa-4x"></i></a>
+                        </div>
 
+                        <div class="small-3 medium-3 columns">
+                          <a href="#"><i class="fa fa-instagram fa-fw fa-4x"></i></a>
+                        </div>
+                
+                        <div class="small-3 medium-3 columns">
+                          <a href="#"><i class="fa fa-linkedin fa-fw fa-4x"></i></a>
+                        </div>
 
-      </div>
+                        <div class="small-3 medium-3 columns">
+                          <a href="#"><i class="fa fa-twitter  fa-fw fa-4x"></i></a>
+                        </div>
+                  </div> <!-- end social -->
+
+          <div class="row">
+            <div class="small-12 medium-12  columns btns-group">
+            <ul class="button-group radius round">
+              <li><%= link_to "Visit Blog", about_path, class:"button small secondary success"%></li>
+              <li><%= link_to "Learn About Me", about_path, class:"button small secondary success" %></li>
+            </ul>
+            </div>
+          </div>  <!-- end btn group -->
+
+          </div>   <!-- end medium 7 row -->
+
+        </div> <!-- end container row --> 
+
+      </div> <!-- end intro row -->
 
       <div class="whatwedo">
   
