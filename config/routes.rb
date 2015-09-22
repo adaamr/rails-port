@@ -9,4 +9,6 @@ Rails.application.routes.draw do
 
   get 'portfolio' => "static_pages#portfolio"
 
+  get 'myprocess' => "static_pages#myprocess"
+
 end

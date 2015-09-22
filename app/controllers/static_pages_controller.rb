@@ -5,6 +5,9 @@ class StaticPagesController < ApplicationController
   def contact
   end
 
+  def myprocess
+  end
+
   def payment
   end
 
@@ -13,4 +16,5 @@ class StaticPagesController < ApplicationController
 
   def about
   end	
+
 end
